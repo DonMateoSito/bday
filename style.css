@@ -1,3 +1,112 @@
 body{
-    background-color: orangered;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    text-align: center;
+    position: relative;
+}
+figure{
+    
+    border:5px solid purple;
+}
+.dancing1{
+    position: fixed;
+    left:0;
+    bottom:0;
+
+
+}
+.dancing2{
+    position: fixed;
+    right:0;
+    bottom:0;
+    
+
+}
+.dancing3{
+    position: fixed;
+    right:0;
+    top:0;
+    transform: rotate(180deg);
+
+}
+.dancing4{
+    position: fixed;
+    left:0;
+    top:0;
+    transform: rotate(180deg);
+}
+.dancing5{
+    position: fixed;
+    right:0;
+    top:50%;
+    transform: rotate(-90deg);
+}
+.dancing6{
+    position: fixed;
+    left:0;
+    top:50%;
+    transform: rotate(90deg);
+}
+.dancing7{
+    position: fixed;
+    left:0;
+    top:30%;
+    transform: rotate(90deg);
+}
+.dancing8{
+    position: fixed;
+    right:0;
+    top:30%;
+    transform: rotate(-90deg);
+}
+@media screen and (min-width: 600px) {
+  figure {
+    
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+  }
+}
+.video{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.shadow12{
+    box-shadow: 0px 4px 0px 4px  rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 4px 0px 4px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 4px 0px 4px rgba(0,0,0,0.63);
+    border:none;
+}
+.img{
+    display: inline-block;
+    width: clamp(60px,10vw,80px);
+    height: 100%;
+    padding: 10px;
+    
+    
+}
+.images{
+    text-align: center;
+    width: 100%;
+
+}
+.openMe{
+    display: none;
+    transition: 1s ease-in;
+    background-color: #eee;
+}
+.butt{
+    width: auto;
+    height: 50px;
+    border:1px solid purple;
+    border-radius: 30px;
+    font-size: clamp(10px, 5vw, 20px);
+    background-color: blueviolet;
+    color:white;
+    padding: 10px;
+    margin: 25px;
 }
