@@ -27,6 +27,7 @@ btn.addEventListener('click', function(e){
         vid.pause();
     } else{
         divToOpen.style.display = "block";
+        vid.scrollIntoView();
         vid.play();
     };
    
