@@ -1,15 +1,19 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(105, 1, 105)!important;
+
+    
 }
 .container{
     
     text-align: center;
     position: relative;
+    background-color: purple;
 }
 figure{
     
-    border:5px solid purple;
+    border:5px solid pink;
 }
 .dancing1{
     position: fixed;
@@ -97,7 +101,7 @@ figure{
 .openMe{
     display: none;
     transition: 1s ease-in;
-    background-color: #eee;
+    background-color: rgb(133, 82, 133);
 }
 .butt{
     width: auto;
@@ -107,6 +111,9 @@ figure{
     font-size: clamp(10px, 5vw, 20px);
     background-color: blueviolet;
     color:white;
-    padding: 10px;
+    padding: 5px;
     margin: 25px;
+}
+.ukryty{
+    display: none;
 }
